@@ -52,6 +52,19 @@ a {
     opacity: .9;
 }
 
+.search-form {
+    max-width: 400px;
+}
+
+.search-form,
+.btn-search {
+    border-radius: 10px;
+}
+
+.btn-search {
+    background-color: var(--tertiary-color);
+}
+
 .plate-img {
     width: 90%;
     z-index: 1;
