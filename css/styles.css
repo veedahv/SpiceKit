@@ -87,6 +87,10 @@ a {
     background-color: var(--primary-color);
 }
 
+.pattrn {
+    z-index: -1;
+}
+
 .section-title {
     font-weight: 700;
 }
