@@ -35,8 +35,12 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+    font-weight: 600;
+}
+
 .main {
-    background: url('../images/main-bg.jpg');
+    /* background: url('../images/main-bg.jpg') no-repeat center right/cover; */
 }
 
 .landing-section {
@@ -61,7 +65,7 @@ a {
     border-radius: 10px;
 }
 
-.btn-search {
+.btn-bg {
     background-color: var(--tertiary-color);
 }
 
@@ -76,6 +80,14 @@ a {
 }
 
 .plate-box {
+}
+
+.label-title {
+    background-color: var(--primary-color);
+}
+
+.section-title {
+    font-weight: 700;
 }
 
 .card {
@@ -127,11 +139,32 @@ a {
 }
 
 .resturants-name {
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 .meal-name {
     opacity: .5;
+}
+
+.order-section {
+    background: #F2F4FA;
+}
+
+.order-txt-box {
+    max-width: 500px;
+}
+
+.input-send {
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, .1);
+}
+
+.location-title {
+    font-size: 22px;
+}
+
+.lighter {
+    opacity: .7;
 }
 
 .footer {
@@ -140,6 +173,10 @@ a {
 
 .footer-intro {
     max-width: 350px;
+}
+
+hr {
+    opacity: 1;
 }
 
 @media (min-width: 1200px){
