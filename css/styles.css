@@ -27,6 +27,7 @@ a {
 
 .header {
     z-index: 5;
+    /* background: var(--primary-color); */
 }
 
 .logo,
@@ -155,8 +156,13 @@ a {
     max-width: 500px;
 }
 
-.input-send {
-    box-shadow: 3px 5px 7px rgba(0, 0, 0, .1);
+.send-form {
+    max-width: 480px;
+    /* box-shadow: 3px 5px 7px rgba(0, 0, 0, .1); */
+}
+
+.label-send {
+    z-index: 5;
 }
 
 .location-title {
@@ -182,5 +188,14 @@ hr {
 @media (min-width: 1200px){
     .home-title {
         font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 900px){
+    .navbar-collapse {
+        /* background: rgba(35, 65, 10, 0.897); */
+    }
+    .header {
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(35, 65, 10, 1) 100%);
     }
 }

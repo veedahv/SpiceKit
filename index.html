@@ -280,9 +280,15 @@
             </div>
             </div>
             <div class="col-lg-5 position-relative">
-              <form class="d-flex my-3 align-items-center search-form">
-                <input class="form-control input-send ps-5 py-3 me-1 border-0" type="search" placeholder="Enter delivery address"
-                  aria-label="Search">
+              <form class="d-flex my-3 align-items-center send-form">
+                <div class="me-1 w-100 send-input-box position-relative">
+                  <label for="input-send" class="label-send px-3 position-absolute top-50 start-0 translate-middle-y">
+                    <img src="./images/location.png" alt="">
+                  </label>
+                  <!-- <input class="form-control input-send ps-5 py-3 me-1 border-0" id="input-send" placeholder="Enter delivery address"
+                  aria-label="Search"> -->
+                  <input class="input-send w-100 shadow position-relative ps-5 py-3 border-0" id="input-send" placeholder="Enter delivery address" aria-label="Search">
+                </div>
                 <button class="btn btn-send text-white py-3 btn-bg" type="submit">Send</button>
               </form>
             </div>
@@ -312,9 +318,9 @@
       </div>
     </section>
   </main>
-  <footer class="footer text-white">
+  <footer class="footer text-white py-5">
     <div class="container">
-      <div class="row g-4">
+      <div class="row mb-4 g-4">
         <div class="col-lg-4">
           <div class="footer-intro">
             <h3 class="logo footer-logo">SpiceKit</h3>
@@ -327,7 +333,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row g-4">
-            <div class="col-md-3">
+            <div class="col-md-4">
               <h3 class="">About us</h3>
               <ul class="footer-ul mt-3 ps-0">
                 <li class="footer-li my-2">
@@ -347,7 +353,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <h3 class="">Get help</h3>
               <ul class="footer-ul mt-3 ps-0">
                 <li class="footer-li my-2">
@@ -367,27 +373,38 @@
                 </select>
               </ul>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-4">
               <h3 class="">Contact us</h3>
-              <ul class="footer-ul mt-3 ps-0">
-                <li class="footer-li my-2">
-                  <a href="" class="footer-links text-white">Concept</a>
-                </li>
-                <li class="footer-li my-2">
-                  <a href="" class="footer-links text-white">Franchise</a>
-                </li>
-                <li class="footer-li my-2">
-                  <a href="" class="footer-links text-white">Business</a>
-                </li>
-                <li class="footer-li my-2">
-                  <a href="" class="footer-links text-white">Restaurant signup</a>
-                </li>
-                <li class="footer-li my-2">
-                  <a href="" class="footer-links text-white">For Investors</a>
-                </li>
-              </ul>
+              <div class="mt-3">
+                <p class="my-2">
+                  Udo-Udoma Avenue, Uyo
+                </p>
+                <p class="my-2">
+                  32 Udobio Street, Uyo, Akwa Ibom State
+                </p>
+                <a href="tel:+08111 344 635" class="my-2 d-block text-white">08111 344 635</a>
+                <a href="mailto:contact@spicekit.com.ng" class="my-2 d-block text-white">contact@spicekit.com.ng</a>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap align-items-center justify-content-between">
+        <div class="social-media my-2">
+          <a href="" class="d-inline-block media-icons">
+            <img src="./images/insta.svg" alt="instagram link" class="media-icon me-2">
+          </a>
+          <a href="" class="d-inline-block media-icons">
+            <img src="./images/twitter.png" alt="twitter link" class="media-icon mx-2">
+          </a>
+          <a href="" class="d-inline-block media-icons">
+            <img src="./images/fb.svg" alt="facebook link" class="media-icon ms-2">
+          </a>
+        </div>
+        <div class="info-links-box my-2">
+          <a href="" class="d-inline-block text-white">Privacy Policy</a>
+          <a href="" class="d-inline-block text-white mx-4 mx-lg-5">Terms</a>
+          <a href="" class="d-inline-block text-white">© 2020 SpiceKit</a>
         </div>
       </div>
     </div>
