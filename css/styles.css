@@ -46,6 +46,10 @@ a {
 
 .home-title {
     font-weight: 700;
+    /* font-size: 3.5rem; */
+    font-size: calc(1.75rem + 2vw);
+    max-width: 450px;
+    opacity: .9;
 }
 
 .plate-img {
@@ -119,4 +123,14 @@ a {
 
 .footer {
     background: var(--primary-color);
+}
+
+.footer-intro {
+    max-width: 350px;
+}
+
+@media (min-width: 1200px){
+    .home-title {
+        font-size: 3.4rem;
+    }
 }
